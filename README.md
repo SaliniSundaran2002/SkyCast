@@ -25,7 +25,7 @@ SkyCast is a modern weather forecasting application that provides accurate and u
 
 ## 🎥 Demo Video
 
-[![SkyCast Demo](https://via.placeholder.com/800x450?text=Demo+Video)](screenshots/Screenrecord.webm)
+[![SkyCast Demo](/screenshots/Screenrecord.webm)
 
 ---
 
@@ -63,7 +63,7 @@ To use the API key in SkyCast:
 1. Create a `.env` file in the root directory of the project.
 2. Add your API key to the `.env` file:
     ```env
-    REACT_APP_WEATHER_API_KEY=your_api_key_here
+    VITE_WEATHER_API_KEY=your_api_key_here
     ```
 3. Restart the application to apply the changes.
 
