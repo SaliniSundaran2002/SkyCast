@@ -1,75 +1,83 @@
 # SkyCast 🌤️
-SkyCast is a modern weather forecasting application that provides accurate and up-to-date weather information for any location. With its sleek interface and reliable data, SkyCast helps you plan your day with confidence.
+
+SkyCast is a cutting-edge weather forecasting application designed to deliver precise and up-to-date weather information for any location. With its intuitive interface and dependable data, SkyCast empowers users to plan their day with confidence.
+
 ---
 
 ## 🌟 Features
 
-- **🌍 Current Weather**: Get real-time weather updates for your location.
-- **🔍 Search Locations**: Check weather conditions for any city or region.
-- **🌗 Dark/Light Mode**: Switch between dark and light themes for a personalized experience.
+- **🌍 Real-Time Weather**: Access live weather updates for your current location.
+- **🔍 Location Search**: Retrieve weather details for any city or region worldwide.
+- **🌗 Theme Customization**: Toggle between dark and light modes for a tailored user experience.
 
 ---
 
 ## 📸 Screenshots
 
 ### Home Screen
-![Light Mode Home Screen](screenshots/light.png)
-![Dark Mode Home Screen](screenshots/dark.png)
-![Kochi Weather](screenshots/kochi.png)
-![Trivandrum Weather](screenshots/tvm.png)
+- Light Mode:  
+    ![Light Mode Home Screen](screenshots/light.png)
+- Dark Mode:  
+    ![Dark Mode Home Screen](screenshots/dark.png)
 
-### About SkyCast
+### Weather Details
+- Kochi:  
+    ![Kochi Weather](screenshots/kochi.png)
+- Trivandrum:  
+    ![Trivandrum Weather](screenshots/tvm.png)
+
+### About Section
 ![About SkyCast](screenshots/about.png)
 
 ---
 
-## 🎥 Demo Video
+## 🎥 Demo
 
-[![SkyCast Demo](screenshots/Screenrecord.webm)]
+[![SkyCast Demo](screenshots/Screenrecord.webm)](screenshots/Screenrecord.webm)
 
 ---
 
-## 🚀 Installation
+## 🚀 Installation Guide
+
+Follow these steps to set up and run SkyCast:
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/SaliniSundaran2002/SkyCast.git
-    ```
+        ```bash
+        git clone https://github.com/SaliniSundaran2002/SkyCast.git
+        ```
 2. Navigate to the project directory:
-    ```bash
-    cd SkyCast
-    ```
-3. Install dependencies:
-    ```bash
-    npm install
-    ```
-4. Start the application:
-    ```bash
-    npm start
-    ```
+        ```bash
+        cd SkyCast
+        ```
+3. Install the required dependencies:
+        ```bash
+        npm install
+        ```
+4. Launch the application:
+        ```bash
+        npm start
+        ```
 
 ---
 
-## 🌐 OpenWeatherMap API Integration
+## 🌐 OpenWeatherMap API Configuration
 
-SkyCast uses the OpenWeatherMap API to fetch accurate and reliable weather data. Follow these steps to get your API key:
+SkyCast integrates with the OpenWeatherMap API to provide accurate weather data. To configure the API:
 
-1. Sign up at [OpenWeatherMap](https://openweathermap.org/) if you don't already have an account.
-2. Navigate to the API keys section in your account dashboard.
-3. Generate a new API key and copy it.
+1. Register at [OpenWeatherMap](https://openweathermap.org/) and log in.
+2. Generate an API key from your account dashboard.
+3. Create a `.env` file in the root directory of the project.
+4. Add the following line to the `.env` file:
+        ```env
+        VITE_WEATHER_API_KEY=your_api_key_here
+        ```
+5. Restart the application to apply the changes.
 
-To use the API key in SkyCast:
+For additional information, refer to the [OpenWeatherMap API Documentation](https://openweathermap.org/api).
 
-1. Create a `.env` file in the root directory of the project.
-2. Add your API key to the `.env` file:
-    ```env
-    VITE_WEATHER_API_KEY=your_api_key_here
-    ```
-3. Restart the application to apply the changes.
+---
 
-For more details, refer to the [OpenWeatherMap API Documentation](https://openweathermap.org/api).
-
-## 🛠️ Technologies Used
+## 🛠️ Technologies
 
 - **Frontend**: React, Tailwind CSS
 - **API**: OpenWeatherMap API
