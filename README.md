@@ -33,7 +33,7 @@ SkyCast is a cutting-edge weather forecasting application designed to deliver pr
 
 ## 🎥 Demo
 
-[![SkyCast Demo](screenshots/Screenrecord.webm)](screenshots/Screenrecord.webm)
+[Click here to view the SkyCast Demo](screenshots/Screenrecord.webm)
 
 ---
 
