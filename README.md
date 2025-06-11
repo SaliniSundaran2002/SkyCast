@@ -25,7 +25,7 @@ SkyCast is a modern weather forecasting application that provides accurate and u
 
 ## 🎥 Demo Video
 
-[![SkyCast Demo](/screenshots/Screenrecord.webm)
+[![SkyCast Demo](screenshots/Screenrecord.webm)
 
 ---
 
