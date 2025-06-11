@@ -1,9 +1,5 @@
 # SkyCast 🌤️
-
 SkyCast is a modern weather forecasting application that provides accurate and up-to-date weather information for any location. With its sleek interface and reliable data, SkyCast helps you plan your day with confidence.
-
-![SkyCast Banner](https://via.placeholder.com/1200x400?text=SkyCast+Weather+App)
-
 ---
 
 ## 🌟 Features
@@ -19,20 +15,19 @@ SkyCast is a modern weather forecasting application that provides accurate and u
 ## 📸 Screenshots
 
 ### Home Screen
-![Home Screen](/screenshots/light.png)
-[](/screenshots/dark.png)
-[](/screenshots/kochi.png)
-[](/screenshots/tvm.png)
+![Light Mode Home Screen](screenshots/light.png)
+![Dark Mode Home Screen](screenshots/dark.png)
+![Kochi Weather](screenshots/kochi.png)
+![Trivandrum Weather](screenshots/tvm.png)
 
 ### About SkyCast
-![About](/screenshots/about.png)
-
+![About SkyCast](screenshots/about.png)
 
 ---
 
 ## 🎥 Demo Video
 
-[![SkyCast Demo](/screenshots/Screenrecord.webm)]
+[![SkyCast Demo](https://via.placeholder.com/800x450?text=Demo+Video)](screenshots/Screenrecord.webm)
 
 ---
 
