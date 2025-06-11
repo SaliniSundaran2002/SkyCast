@@ -5,10 +5,8 @@ SkyCast is a modern weather forecasting application that provides accurate and u
 ## 🌟 Features
 
 - **🌍 Current Weather**: Get real-time weather updates for your location.
-- **📅 7-Day Forecast**: View detailed weather forecasts for the next 7 days.
 - **🔍 Search Locations**: Check weather conditions for any city or region.
-- **⚠️ Custom Alerts**: Set up notifications for severe weather conditions.
-- **🗺️ Interactive Maps**: Explore weather patterns with dynamic maps.
+- **🌗 Dark/Light Mode**: Switch between dark and light themes for a personalized experience.
 
 ---
 
@@ -51,6 +49,25 @@ SkyCast is a modern weather forecasting application that provides accurate and u
     ```
 
 ---
+
+## 🌐 OpenWeatherMap API Integration
+
+SkyCast uses the OpenWeatherMap API to fetch accurate and reliable weather data. Follow these steps to get your API key:
+
+1. Sign up at [OpenWeatherMap](https://openweathermap.org/) if you don't already have an account.
+2. Navigate to the API keys section in your account dashboard.
+3. Generate a new API key and copy it.
+
+To use the API key in SkyCast:
+
+1. Create a `.env` file in the root directory of the project.
+2. Add your API key to the `.env` file:
+    ```env
+    REACT_APP_WEATHER_API_KEY=your_api_key_here
+    ```
+3. Restart the application to apply the changes.
+
+For more details, refer to the [OpenWeatherMap API Documentation](https://openweathermap.org/api).
 
 ## 🛠️ Technologies Used
 
